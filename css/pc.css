@@ -1,13 +1,24 @@
-.container-fluid, 
+.container-fluid,
 .navbar {
 	max-width: 1240px;
 	margin: 0 auto;
 }
-
+body {
+	line-height: 1.6em;
+	font-size: 1.0125em;
+}
+.title-description h2 {
+	margin-bottom: 0.5em;
+}
+.title-description .btn {
+	margin-top: 1em;
+}
 td.cover {
 	width: 250px;
 }
-
+header .row-fluid {
+	margin-top: 0;
+}
 footer {
 	margin-bottom: 80px;
 }
@@ -31,10 +42,7 @@ input.email {
 	margin-top: 10px;
 }
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) { 
-
-
-
+@media (min-width: 768px) {
 	.title-description p {
 		color: #FFF;
 	}
@@ -63,7 +71,7 @@ input.email {
 
 }
 
-/* Large desktop */    
+/* Large desktop */
 @media only screen and (min-width: 1200px) {
 
    .title-description {
@@ -90,6 +98,5 @@ input.email {
 		/* half of the width, minus scrollbar on the left (30px) */
 		margin-left: -540px;
 	}
-   
-}    
 
+}
