@@ -1,0 +1,95 @@
+.container-fluid, 
+.navbar {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+td.cover {
+	width: 250px;
+}
+
+footer {
+	margin-bottom: 80px;
+}
+.thumbnails > li {
+	margin: 20px 20px 0 0;
+}
+.row-fluid {
+	margin-top: 2em;
+}
+.subheader {
+	line-height: 0;
+}
+.modal .text-center {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.modal .text-center {
+	padding: 0 1em 0 1em;
+}
+input.email {
+	margin-top: 10px;
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) { 
+
+
+
+	.title-description p {
+		color: #FFF;
+	}
+	.movie-container {
+	   position: relative;
+	}
+	.title-description {
+		position: absolute;
+		top: 50px;
+		padding: 0 5em 0 5em;
+	}
+	img.bg-full {
+		position: relative;
+		opacity:0.6;
+		filter:alpha(opacity=60); /* For IE8 and earlier */
+	}
+	.modal {
+		width: 720px;
+		/* half of the width, minus scrollbar on the left (30px) */
+		margin-left: -360px;
+	}
+	.modal select {
+		margin: 1px 10px 0 0;
+		padding-top: 7px;
+	}
+
+}
+
+/* Large desktop */    
+@media only screen and (min-width: 1200px) {
+
+   .title-description {
+	 width: 66%;
+   }
+   	.title-description p {
+		color: #FFF;
+	}
+	.title-description {
+		position: absolute;
+		top: 50px;
+		padding: 0 5em 0 5em;
+	}
+	.movie-container {
+	   position: relative;
+	}
+	img.bg-full {
+		position: relative;
+		opacity:0.6;
+		filter:alpha(opacity=60); /* For IE8 and earlier */
+	}
+	.modal {
+		width: 1080px;
+		/* half of the width, minus scrollbar on the left (30px) */
+		margin-left: -540px;
+	}
+   
+}    
+
